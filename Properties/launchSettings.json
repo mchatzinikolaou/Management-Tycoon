@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Management-Tycoon": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
