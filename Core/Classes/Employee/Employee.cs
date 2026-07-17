@@ -1,4 +1,4 @@
-﻿using Management_Tycoon.Core.Enums;
+﻿Susing Management_Tycoon.Core.Enums;
 
 namespace Management_Tycoon.Core.Classes.Employee
 {

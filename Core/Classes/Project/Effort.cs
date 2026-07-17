@@ -1,6 +1,6 @@
 ﻿using Management_Tycoon.Core.Enums;
 
-namespace Management_Tycoon.Core.Classes.Project.Project
+namespace Management_Tycoon.Core.Classes.Project
 {
     public class Effort
     {

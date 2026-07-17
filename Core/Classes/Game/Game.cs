@@ -6,8 +6,8 @@ namespace Management_Tycoon.Core.Classes.Game
     public static class Game
     {
         public static Manager Manager { get; set; }
-        public static Company Company { get; set; }
-        public static List<Employee> Employees { get; set; }
+        public static Company.Company Company { get; set; }
+        public static List<Employee.Employee> Employees { get; set; }
         public static List<RoleCompensationStatistics> RoleCompensationStatistics { get; set; }
         public static DateTime CurrentDate { get; set; }
 
