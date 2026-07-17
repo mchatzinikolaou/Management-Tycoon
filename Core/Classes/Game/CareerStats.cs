@@ -1,4 +1,4 @@
-﻿namespace Management_Tycoon.Core.Classes
+﻿namespace Management_Tycoon.Core.Classes.Game
 {
     public class CareerStats
     {

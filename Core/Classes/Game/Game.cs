@@ -1,6 +1,7 @@
-﻿using Management_Tycoon.Core.Classes;
+﻿using Management_Tycoon.Core.Classes.Company;
+using Management_Tycoon.Core.Classes.Employee;
 
-namespace Management_Tycoon.Core.GameLogic
+namespace Management_Tycoon.Core.Classes.Game
 {
     public static class Game
     {
@@ -12,17 +13,26 @@ namespace Management_Tycoon.Core.GameLogic
 
 
 
-        public static async Task InitializeGame()
+        public static async Task NewGame()
         {
-            await Game.InitializeDate();
-            await Game.InitializeManager();
+            await InitializeDate();
+            await InitializeManager();
             await Game.InitializeCompany();
             await Game.InitializeEmployees();
         }
 
-        public static async Task InitializeDate()
+        private static async Task InitializeDate()
         {
             CurrentDate = config.CustomStartDate ?? new DateTime(DateTime.Now.Year, 1, 1);
+        }
+
+        private static async Task InitializeManager()
+        {
+            Manager = new()
+            {
+                Id=Guid.NewGuid(),
+                IsPlayer = true,
+            };
         }
     }
 }

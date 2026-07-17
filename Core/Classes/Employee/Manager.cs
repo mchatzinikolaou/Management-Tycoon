@@ -1,9 +1,9 @@
-﻿namespace Management_Tycoon.Core.Classes
+﻿namespace Management_Tycoon.Core.Classes.Employee
 {
     public class Manager : Employee
     {
         public bool IsPlayer { get; set; } = true;
-        public decimal Savings { get; set; }
+        public decimal Budget { get; set; }
         public Expenditure Expenditure { get; set; }
 
     }

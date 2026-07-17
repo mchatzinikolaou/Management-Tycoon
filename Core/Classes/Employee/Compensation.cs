@@ -1,6 +1,7 @@
-﻿using Management_Tycoon.Core.Enums;
+﻿using Management_Tycoon.Core.Classes.Company;
+using Management_Tycoon.Core.Enums;
 
-namespace Management_Tycoon.Core.Classes
+namespace Management_Tycoon.Core.Classes.Employee.Employee
 {
     public abstract class Compensation
     {

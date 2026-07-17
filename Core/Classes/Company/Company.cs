@@ -1,5 +1,6 @@
-﻿
-namespace Management_Tycoon.Core.Classes
+﻿using Management_Tycoon.Core.Classes.Employee;
+
+namespace Management_Tycoon.Core.Classes.Company
 {
     public class Company
     {

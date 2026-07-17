@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Management_Tycoon.Core.Classes
+namespace Management_Tycoon.Core.Classes.Company
 {
     //Revisit code
     public class RoleCompensationStatistics
